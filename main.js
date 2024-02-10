@@ -5,6 +5,8 @@ window.onload = function() {
         if (navLinks[i].href === document.URL) {
             navLinks[i].className = 'active';
             console.log(navLinks[i].href);
+        } else {
+            navLinks[i].className = 'inactive';
         }
         console.log(navLinks[i].href);
 
