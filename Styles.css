@@ -2,8 +2,8 @@
 body{
     margin: 0;
     padding: 0;
-    width: 75vw;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     font-family: "JetBrains Mono", serif;
     font-size: 2em;
     background-color: #1f2023;
@@ -14,6 +14,9 @@ body{
     --green: #67a56f;
     --tagColor: #cdb074;
     --white: #b5b7bd;
+}
+main{
+    font-size: 6vh;
 }
 
 /* General Elements */
@@ -81,7 +84,7 @@ nav ul li a:hover {
 }
 #juliaHusarPicture{
     display: flex;
-    width: 25vw;
+    width: 30vw;
     height: auto;
     position: absolute;
     top: 1rem;
