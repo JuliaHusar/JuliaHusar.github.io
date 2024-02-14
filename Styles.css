@@ -2,6 +2,8 @@
 body{
     margin: 0;
     padding: 0;
+    width: 75vw;
+    height: auto;
     font-family: "JetBrains Mono", serif;
     font-size: 2em;
     background-color: #1f2023;
@@ -70,9 +72,19 @@ nav ul li a:hover {
 
 
 /* Body Elements */
+
 #bodySection{
     text-indent: var(--indent);
 }
 #picOfMe{
     text-indent: var(--doubleIndent);
+}
+#juliaHusarPicture{
+    display: flex;
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
 }
