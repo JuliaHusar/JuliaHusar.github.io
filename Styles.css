@@ -5,7 +5,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: "JetBrains Mono", serif;
-    font-size: 5vh;
+    font-size: 2.5vw;
     background-color: #1f2023;
     text-align: left;
 }
@@ -17,7 +17,7 @@ body{
     --white: #b5b7bd;
 }
 main{
-    font-size: 5vh;
+    font-size: 2.5vw;
     margin-left: 2rem;
 }
 
