@@ -5,8 +5,9 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: "JetBrains Mono", serif;
-    font-size: 2em;
+    font-size: 5vh;
     background-color: #1f2023;
+    text-align: left;
 }
 :root{
     --indent: 50px;
@@ -16,8 +17,10 @@ body{
     --white: #b5b7bd;
 }
 main{
-    font-size: 6vh;
+    font-size: 5vh;
+    margin-left: 2rem;
 }
+
 
 /* General Elements */
 #heading-section{
@@ -84,10 +87,21 @@ nav ul li a:hover {
 }
 #juliaHusarPicture{
     display: flex;
-    width: 30vw;
+    width: 20vw;
     height: auto;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 1vh;
+    right: 10vw;
 
+}
+
+/* Projects/Java code */
+#javaCode{
+    color: var(--white);
+}
+.javaVariable{
+    text-indent: var(--indent);
+}
+.javaMethod{
+    text-indent: var(--doubleIndent);
 }
